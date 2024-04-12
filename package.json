@@ -1,6 +1,6 @@
 {
   "name": "@ez1n/github-packages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "practice github packages",
   "source": "src/index.ts",
   "main": "dist/index.js",
