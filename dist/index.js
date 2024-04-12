@@ -5,3 +5,4 @@ function printName(name) {
     return name;
 }
 exports.printName = printName;
+//# sourceMappingURL=index.js.map
