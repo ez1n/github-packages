@@ -1,0 +1,28 @@
+{
+  "name": "github-packages",
+  "version": "0.0.1",
+  "description": "practice github packages",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc --build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ez1n/github-packages.git"
+  },
+  "publishConfig": {
+    "@ez1n:registry": "https://npm.pkg.github.com"
+  },
+  "author": "ez1n <eodrmfdl1004@naver.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
